@@ -4,7 +4,7 @@ from .plot_kneighbors_regularization import plot_kneighbors_regularization, \
 from .plot_linear_svc_regularization import plot_linear_svc_regularization
 from .plot_interactive_tree import plot_tree_interactive, plot_tree
 from .plot_interactive_forest import plot_forest_interactive, plot_forest
-from .plot_rbf_svm_parameters import plot_rbf_svm_parameters
+from .plot_rbf_svm_parameters import plot_rbf_svm_parameters, make_handcrafted_dataset
 from .plot_rbf_svm_parameters import plot_svm_interactive
 from .plot_scaling import plot_scaling, plot_relative_scaling
 from .plot_digits_dataset import digits_plot
@@ -13,7 +13,7 @@ from .plot_helpers import cm2, cm3
 
 __all__ = ['plot_2d_separator', 'plot_kneighbors_regularization',
            'plot_linear_svc_regularization', 'plot_tree_interactive',
-           'plot_tree', 'plot_regression_datasets', 'make_dataset',
+           'plot_tree', 'plot_regression_datasets', 'make_dataset', 'make_handcrafted_dataset',
            "plot_forest_interactive", "plot_forest", "plot_rbf_svm_parameters",
            "plot_svm_interactive", 'plot_scaling', 'digits_plot',
            'plot_relative_scaling', 'plot_pca_illustration',
